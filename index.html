@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа в Wildberries ПВЗ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <div class="brand-logo">
+                            <span class="logo-wb">WB</span>
+                            <span class="logo-slash">/</span>
+                            <span class="logo-text">Славянка</span>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#benefits">Преимущества</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link join-btn" href="#apply">Присоединиться</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row align-items-center hero-row">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="location-highlight" data-aos="fade-right" data-aos-delay="200">
+                            <span class="location-tag">
+                                <i class="fas fa-map-marker-alt"></i>
+                                м. Рыбацкое
+                            </span>
+                            <span class="location-tag">
+                                <i class="fas fa-building"></i>
+                                ул. Славянская, д.8
+                            </span>
+                        </div>
+                        <h1 class="display-4 fw-bold">Построй карьеру в Wildberries<br><span class="location-name">ПВЗ Славянская д.8</span></h1>
+                        <p class="lead">Присоединяйся к команде лидера e-commerce в России и СНГ. Работа в современном пункте выдачи в 5 минутах от метро Рыбацкое!</p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">15000+</span>
+                                <span class="stat-text">Довольных сотрудников по всей России</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">9000+</span>
+                                <span class="stat-text">Пунктов выдачи заказов</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2500₽</span>
+                                <span class="stat-text">Оплата за смену</span>
+                            </div>
+                        </div>
+                        <div class="mobile-benefits d-md-none">
+                            <div class="benefit-tag">
+                                <i class="fas fa-clock"></i>
+                                Гибкий график
+                            </div>
+                            <div class="benefit-tag">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Работа рядом с домом
+                            </div>
+                            <div class="benefit-tag">
+                                <i class="fas fa-wallet"></i>
+                                Еженедельные выплаты
+                            </div>
+                        </div>
+                        <a href="#apply" class="btn btn-primary btn-lg mt-4">
+                            <span>Начать карьеру</span>
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                        <div class="hero-image">
+                            <div class="hero-decorative-elements">
+                                <div class="floating-circle circle-1"></div>
+                                <div class="floating-circle circle-2"></div>
+                                <div class="floating-circle circle-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="#ffffff" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <h2 class="benefits-title">Почему выбирают нас</h2>
+            <p class="benefits-subtitle">Мы создаем лучшие условия для наших сотрудников</p>
+            
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <h3 class="benefit-title">Достойная оплата</h3>
+                        <ul class="benefit-list">
+                            <li class="benefit-item">От 2500₽ за смену</li>
+                            <li class="benefit-item">Выплаты без задержек</li>
+                            <li class="benefit-item">Премии за качество</li>
+                            <li class="benefit-item">Оплата обучения</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="benefit-title">Удобный график</h3>
+                        <ul class="benefit-list">
+                            <li class="benefit-item">График 2/2 или 3/3</li>
+                            <li class="benefit-item">Смены по 11-12 часов</li>
+                            <li class="benefit-item">Возможность выбора смен</li>
+                            <li class="benefit-item">Работа рядом с домом</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="benefit-title">Развитие</h3>
+                        <ul class="benefit-list">
+                            <li class="benefit-item">Карьерный рост</li>
+                            <li class="benefit-item">Обучение за счет компании</li>
+                            <li class="benefit-item">Наставничество</li>
+                            <li class="benefit-item">Дружный коллектив</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Position Section -->
+    <section id="positions" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2>Открытые вакансии</h2>
+                <p class="lead">Присоединяйтесь к нашей команде</p>
+            </div>
+            <div class="position-card" data-aos="fade-up">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h3>Сотрудник ПВЗ Wildberries</h3>
+                        <div class="position-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Работа рядом с домом</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-money-bill"></i>
+                                <span>От 2500₽/смена</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>График 2/2, 3/3</span>
+                            </div>
+                        </div>
+                        <div class="position-description">
+                            <h4>Обязанности:</h4>
+                            <ul class="duties-list">
+                                <li>Приём и выдача заказов</li>
+                                <li>Консультирование клиентов</li>
+                                <li>Работа с документацией</li>
+                                <li>Поддержание чистоты</li>
+                            </ul>
+                        </div>
+                        <a href="#apply" class="btn btn-primary">Откликнуться</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="requirements-card">
+                            <h4>Требования:</h4>
+                            <ul>
+                                <li>Ответственность</li>
+                                <li>Внимательность</li>
+                                <li>Коммуникабельность</li>
+                                <li>Желание развиваться</li>
+                            </ul>
+                            <div class="requirements-footer">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Опыт работы не требуется</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <h2 class="section-title">О компании</h2>
+                        <p class="company-description">Wildberries — крупнейший онлайн-ритейлер России</p>
+                        
+                        <div class="company-stats">
+                            <div class="stat-box" data-aos="fade-up" data-aos-delay="100">
+                                <span class="stat-value">#1</span>
+                                <span class="stat-label">В e-commerce</span>
+                            </div>
+                            <div class="stat-box" data-aos="fade-up" data-aos-delay="200">
+                                <span class="stat-value">15+</span>
+                                <span class="stat-label">Лет на рынке</span>
+                            </div>
+                            <div class="stat-box" data-aos="fade-up" data-aos-delay="300">
+                                <span class="stat-value">1000+</span>
+                                <span class="stat-label">Городов</span>
+                            </div>
+                        </div>
+
+                        <div class="company-highlights">
+                            <div class="highlight-item" data-aos="fade-up" data-aos-delay="400">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h3>Стабильный рост</h3>
+                                    <p>Постоянное развитие и расширение сети</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item" data-aos="fade-up" data-aos-delay="500">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h3>Сильная команда</h3>
+                                    <p>Профессионалы своего дела</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item" data-aos="fade-up" data-aos-delay="600">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h3>Карьерный рост</h3>
+                                    <p>Возможности для развития</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-text">
+                            <p>Мы создаем лучший сервис для наших клиентов и заботимся о комфортных условиях работы для сотрудников. Присоединяйтесь к команде профессионалов и развивайтесь вместе с нами!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-decorative">
+                        <div class="decorative-element about-circle-1"></div>
+                        <div class="decorative-element about-circle-2"></div>
+                        <div class="about-image-container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section id="apply" class="section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Анкета соискателя</h2>
+                <p class="lead">Заполните форму, и мы свяжемся с вами</p>
+            </div>
+
+            <div class="application-form-wrapper" data-aos="fade-up">
+                <form id="applicationForm" class="application-form">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label><i class="fas fa-user"></i> Фамилия</label>
+                            <input type="text" class="form-control" name="surname" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label><i class="fas fa-user"></i> Имя</label>
+                            <input type="text" class="form-control" name="firstName" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label><i class="fas fa-user"></i> Отчество</label>
+                            <input type="text" class="form-control" name="middleName">
+                            <div class="error-message"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label><i class="fas fa-passport"></i> Гражданство</label>
+                            <input type="text" class="form-control" name="citizenship" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label><i class="fas fa-phone"></i> Телефон</label>
+                            <input type="tel" class="form-control phone-input" name="phone" placeholder="+7 (___) ___-____" required>
+                            <div class="error-message"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label><i class="fas fa-calendar"></i> Дата рождения</label>
+                            <input type="date" class="form-control" name="birthDate" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label><i class="fas fa-venus-mars"></i> Пол</label>
+                            <select class="form-control" name="gender" required>
+                                <option value="">Выберите...</option>
+                                <option value="male">Мужской</option>
+                                <option value="female">Женский</option>
+                            </select>
+                            <div class="error-message"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" class="form-control" name="email" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label><i class="fab fa-telegram"></i> Telegram (username или номер)</label>
+                            <input type="text" class="form-control" name="telegram" placeholder="@username или номер телефона" required>
+                            <div class="error-message"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label><i class="fas fa-map-marker-alt"></i> Город</label>
+                            <input type="text" class="form-control" name="city" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label><i class="fas fa-briefcase"></i> Опыт работы</label>
+                            <select class="form-control" name="experience" required>
+                                <option value="">Выберите...</option>
+                                <option value="no">Нет опыта</option>
+                                <option value="less1">Менее 1 года</option>
+                                <option value="1to3">1-3 года</option>
+                                <option value="more3">Более 3 лет</option>
+                            </select>
+                            <div class="error-message"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fas fa-comment"></i> О себе</label>
+                        <textarea class="form-control" name="about" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="consent" name="consent" required>
+                            <label class="custom-control-label" for="consent">
+                                Я согласен на обработку персональных данных
+                            </label>
+                            <div class="error-message"></div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-button">
+                        <span>Отправить заявку</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Модальное окно успеха -->
+            <div id="successModal" class="success-modal">
+                <div class="success-modal-content">
+                    <div class="success-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Заявка успешно отправлена!</h3>
+                    <p>Мы свяжемся с вами в ближайшее время.</p>
+                    <button class="close-modal-button">Закрыть</button>
+                </div>
+            </div>
+
+            <!-- Модальное окно ошибки -->
+            <div id="errorModal" class="error-modal">
+                <div class="error-modal-content">
+                    <div class="error-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3>Ошибка при отправке формы</h3>
+                    <ul class="error-modal-list"></ul>
+                    <button class="close-modal-button">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="https://www.wildberries.ru/img/logo.png" alt="Wildberries" height="30" class="mb-4">
+                    <p class="footer-description">
+                        Работа в Wildberries — это возможность стать частью команды лидера e-commerce в России и СНГ
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Контакты</h5>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> 8 800 100 00 00</li>
+                        <li><i class="fas fa-envelope"></i> job@wildberries.ru</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Пункты выдачи по всей России</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Социальные сети</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0"> 2024 Wildberries. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
